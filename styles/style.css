@@ -49,7 +49,9 @@
 }
 
 .cover {
-    height: 757px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
     position: relative;
     background-image: url(../images/cover.jpg);
     background-position: center;
